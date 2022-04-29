@@ -4,6 +4,8 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
+  background: #deb887;
+  border-radius: 8px;
 }
 
 p {
