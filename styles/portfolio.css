@@ -10,10 +10,12 @@ h1,
 h2,
 h3 {
   font-family: var(--heading-font-family);
-  border-radius: 8px;
-  font-size: 96px;
+}
+h1 {
+  font-size: 90px;
 }
 .hero {
+  font-family: var(--heading-font-family);
   padding: 120px 0px;
   background: #f5f1fe;
 }
@@ -27,7 +29,9 @@ h3 {
   font-size: 24px;
 }
 .btn-contact {
-  background: #885df1;
   color: #ffffff;
   padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: lighter;
 }
