@@ -4,11 +4,19 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
-  background: #deb887;
   border-radius: 8px;
-  
+  font-size: 96px;
 }
-
-p {
+.hero {
+  padding: 150px 0px;
+  background: #e8eaf6;
+}
+.hero p {
   font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
 }
