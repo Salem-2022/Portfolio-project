@@ -1,6 +1,7 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --other-font-family: "Poppins", sans-serif;
+  --buton-border-radius: 4px;
 }
 body {
   text-align: center;
@@ -8,11 +9,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
 }
 h1 {
   font-size: 90px;
+}
+h3 {
+  font-size: 24px;
 }
 .hero {
   font-family: var(--heading-font-family);
@@ -23,6 +28,7 @@ h1 {
   font-family: var(--other-font-family);
   font-size: 36px;
   font-weight: bold;
+  text-align: center;
 }
 .hero h2 {
   font-family: var(--other-font-family);
@@ -32,6 +38,45 @@ h1 {
   color: #ffffff;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: var(--buton-border-radius);
   font-weight: lighter;
+}
+.read-more {
+  float: left;
+}
+.btn-read-more {
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: var(--buton-border-radius);
+}
+.btn-read-more:hover {
+  background: #085fd7;
+  color: white;
+}
+.app h2,
+p {
+  text-align: left;
+}
+.app h2 {
+  font-size: 36px;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .container {
+    text-align: center;
+  }
+  .app h2,
+  p {
+    text-align: center;
+  }
+  .read-more {
+    float: none;
+  }
+  .veggie {
+    margin-left: 48px;
+  }
 }
