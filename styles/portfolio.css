@@ -1,7 +1,7 @@
 :root {
   --heading-font-family: "Playfair Display", serif;
   --other-font-family: "Poppins", sans-serif;
-  --buton-border-radius: 4px;
+  --button-border-radius: 4px;
 }
 body {
   text-align: center;
@@ -19,6 +19,7 @@ h1 {
 h3 {
   font-size: 24px;
 }
+
 .hero {
   font-family: var(--heading-font-family);
   padding: 120px 0px;
@@ -38,7 +39,7 @@ h3 {
   color: #ffffff;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: var(--buton-border-radius);
+  border-radius: var(--button-border-radius);
   font-weight: lighter;
 }
 .read-more {
@@ -48,7 +49,7 @@ h3 {
   border: 1px solid blue;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: var(--buton-border-radius);
+  border-radius: var(--button-border-radius);
 }
 .btn-read-more:hover {
   background: #085fd7;
