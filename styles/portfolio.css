@@ -33,7 +33,7 @@ h3 {
 }
 .hero h2 {
   font-family: var(--other-font-family);
-  font-size: 24px;
+  font-size: 36px;
 }
 .btn-contact {
   color: #ffffff;
@@ -42,25 +42,24 @@ h3 {
   border-radius: var(--button-border-radius);
   font-weight: lighter;
 }
-.read-more {
-  float: left;
-}
-.btn-read-more {
+
+.btn-learn-more {
   border: 1px solid blue;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: var(--button-border-radius);
 }
-.btn-read-more:hover {
+.btn-learn-more:hover {
   background: #085fd7;
   color: white;
 }
-.app h2,
-p {
-  text-align: left;
+.app-description {
+  text-align: justify;
+  padding: 30px 60px;
 }
-.app h2 {
-  font-size: 36px;
+
+.app-description h2 {
+  font-size: 55px;
 }
 
 @media (max-width: 900px) {
@@ -70,12 +69,11 @@ p {
   .container {
     text-align: center;
   }
-  .app h2,
-  p {
+  .app-description {
     text-align: center;
   }
-  .read-more {
-    float: none;
+  .app-description h2 {
+    font-size: 30px;
   }
   .veggie {
     margin-left: 48px;
