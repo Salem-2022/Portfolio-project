@@ -62,7 +62,18 @@ h3 {
   font-size: 55px;
 }
 .about-section {
-  margin: 100px;
+  padding: 120px 0px;
+}
+.about-section-content h1 {
+  font-size: 64px;
+}
+.about-section-content {
+  padding: 0px 35px;
+  text-align: left;
+}
+.about-section-content h2 {
+  font-family: var(--other-font-family);
+  font-size: 34px;
 }
 .btn-projects {
   color: #ffffff;
@@ -70,9 +81,22 @@ h3 {
   text-decoration: none;
   border-radius: var(--button-border-radius);
 }
+.photo {
+  border-radius: 4px;
+}
+.about-section-content p {
+  font-family: var(--other-font-family);
+  font-size: 24px;
+}
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 50px;
+  }
+  .about-section-content {
+    text-align: center;
+  }
+  .about-section-content h1 {
+    font-size: 55px;
   }
   .container {
     text-align: center;
@@ -81,6 +105,9 @@ h3 {
     text-align: center;
   }
   .app-description h2 {
+    font-size: 30px;
+  }
+  .about-section-content h2 {
     font-size: 30px;
   }
   .veggie {
