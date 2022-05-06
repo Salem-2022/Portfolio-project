@@ -61,19 +61,39 @@ h3 {
 .app-description h2 {
   font-size: 55px;
 }
-.about-section {
+.content-section {
   padding: 120px 0px;
 }
-.about-section-content h1 {
+.content h1 {
   font-size: 64px;
 }
-.about-section-content {
+.content {
   padding: 0px 35px;
   text-align: left;
 }
-.about-section-content h2 {
+.content h2 {
   font-family: var(--other-font-family);
   font-size: 34px;
+}
+.content h3 {
+  font-family: var(--other-font-family);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content p {
+  font-family: --other-font-family;
+  font-size: 24px;
+}
+#work-paragraph {
+  font-family: --other-font-family;
+  font-size: 16px;
+  text-align: center;
+}
+#weatherApp {
+  padding-bottom: 60px;
+  border: 0.1px solid #a8c4fc;
 }
 .btn-projects {
   color: #ffffff;
@@ -84,18 +104,15 @@ h3 {
 .photo {
   border-radius: 4px;
 }
-.about-section-content p {
-  font-family: var(--other-font-family);
-  font-size: 24px;
-}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 50px;
   }
-  .about-section-content {
+  .content {
     text-align: center;
   }
-  .about-section-content h1 {
+  .content h1 {
     font-size: 55px;
   }
   .container {
@@ -107,7 +124,7 @@ h3 {
   .app-description h2 {
     font-size: 30px;
   }
-  .about-section-content h2 {
+  .content h2 {
     font-size: 30px;
   }
   .veggie {
