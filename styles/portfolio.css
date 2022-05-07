@@ -45,15 +45,29 @@ h3 {
   font-weight: lighter;
 }
 
-.btn-learn-more {
+.btn-learn-more,
+.btn-coming-soon {
   border: 1px solid blue;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: var(--button-border-radius);
 }
-.btn-learn-more:hover {
+.btn-learn-more:hover,
+.btn-coming-soon:hover {
   background: #085fd7;
   color: white;
+}
+.btn-launch-project {
+  background: #085fd7;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: var(--button-border-radius);
+}
+.btn-launch-project:hover {
+  background: white;
+  color: #085fd7;
+  border: 1px solid blue;
 }
 .app-description {
   text-align: justify;
@@ -83,7 +97,10 @@ h3 {
   font-weight: bold;
   text-align: center;
 }
-
+.launch-project {
+  text-align: center;
+  margin-bottom: 30px;
+}
 .content p {
   font-family: --other-font-family;
   font-size: 24px;
