@@ -109,12 +109,15 @@ h3 {
   border-radius: 4px;
 }
 .footer {
-  margin-top: 160px;
+  margin-top: 100px;
   background: #f8f6fe;
   padding: 60px;
 }
+h2.footer-heading {
+  font-size: 40px;
+}
 .social-media {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
   font-size: larger;
 }
 i {
