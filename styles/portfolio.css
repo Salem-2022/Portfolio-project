@@ -124,6 +124,24 @@ h3 {
 .photo {
   border-radius: 4px;
 }
+.contact-detail-section,
+.form-section {
+  text-align: left;
+}
+form {
+  line-height: 3;
+  border: 1px solid #dad5e7ab;
+  border-radius: 4px;
+}
+.submit {
+  background: #085fd7;
+  border: 1px solid #085fd7;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 0px 45px;
+  font-size: 20px;
+  color: white;
+}
 .footer {
   margin-top: 100px;
   background: #f8f6fe;
