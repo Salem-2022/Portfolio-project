@@ -110,8 +110,13 @@ h3 {
 }
 .footer {
   margin-top: 160px;
+  background: #f8f6fe;
+  padding: 60px;
 }
-
+.social-media {
+  margin-bottom: 120px;
+  font-size: larger;
+}
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 50px;
