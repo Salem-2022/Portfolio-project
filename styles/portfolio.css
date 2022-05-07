@@ -108,6 +108,9 @@ h3 {
 .photo {
   border-radius: 4px;
 }
+.footer {
+  margin-top: 160px;
+}
 
 @media (max-width: 900px) {
   .hero h1 {
