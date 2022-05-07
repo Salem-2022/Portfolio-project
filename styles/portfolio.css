@@ -133,14 +133,26 @@ form {
   border: 1px solid #dad5e7ab;
   border-radius: 4px;
 }
+.email-field,
+.message-field {
+  padding-right: 450px;
+  border: 1px solid #dad5e7ab;
+  border-radius: 4px;
+}
+.message-field {
+  padding-bottom: 40px;
+}
 .submit {
   background: #085fd7;
   border: 1px solid #085fd7;
   border-radius: 4px;
-  margin-top: 10px;
+  margin: 20px auto;
   padding: 0px 45px;
   font-size: 20px;
   color: white;
+}
+.contact-detail-section h3 {
+  margin-top: 105px;
 }
 .footer {
   margin-top: 100px;
