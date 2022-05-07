@@ -20,8 +20,7 @@ h3 {
   font-size: 24px;
 }
 .logo {
-  max-width: 60px;
-  border-radius: 10px;
+  max-width: 40px;
 }
 .hero {
   font-family: var(--heading-font-family);
