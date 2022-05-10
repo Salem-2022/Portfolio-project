@@ -138,7 +138,6 @@ form {
 }
 .email-field,
 .message-field {
-  padding-right: 150px;
   border: 1px solid #dad5e7ab;
   border-radius: 4px;
 }
@@ -207,6 +206,10 @@ a.email:hover {
   .veggie {
     margin-left: 48px;
   }
+  .form-section,
+  .contact-detail-section {
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -226,13 +229,5 @@ a.email:hover {
   .contact-heading {
     font-size: 36px;
     text-align: center;
-  }
-  .form-section,
-  .contact-detail-section {
-    text-align: center;
-  }
-  .email-field,
-  .message-field {
-    padding-right: 0px;
   }
 }
