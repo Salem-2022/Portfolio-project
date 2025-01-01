@@ -1,0 +1,233 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --other-font-family: "Poppins", sans-serif;
+  --button-border-radius: 4px;
+}
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font-family);
+}
+h1 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 24px;
+}
+.logo {
+  max-width: 40px;
+}
+.hero {
+  font-family: var(--heading-font-family);
+  padding: 120px 0px;
+  background: #f5f1fe;
+}
+.hero p {
+  font-family: var(--other-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.hero h2 {
+  font-family: var(--other-font-family);
+  font-size: 36px;
+}
+.btn-contact {
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: var(--button-border-radius);
+  font-weight: lighter;
+}
+
+.btn-learn-more,
+.btn-coming-soon {
+  border: 1px solid blue;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: var(--button-border-radius);
+}
+.btn-learn-more:hover,
+.btn-coming-soon:hover {
+  background: #085fd7;
+  color: white;
+}
+.btn-launch-project {
+  background: #085fd7;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: var(--button-border-radius);
+}
+.btn-launch-project:hover {
+  background: white;
+  color: #085fd7;
+  border: 1px solid blue;
+}
+.app-description {
+  text-align: justify;
+  padding: 30px 60px;
+}
+
+.app-description h2 {
+  font-size: 55px;
+}
+.content-section {
+  padding: 120px 0px;
+}
+.content h1 {
+  font-size: 64px;
+}
+.content {
+  padding: 0px 35px;
+  text-align: left;
+}
+.content h2 {
+  font-family: var(--other-font-family);
+  font-size: 34px;
+}
+.content h3 {
+  font-family: var(--other-font-family);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.launch-project {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content p {
+  font-family: --other-font-family;
+  font-size: 24px;
+}
+#work-paragraph {
+  font-family: --other-font-family;
+  font-size: 16px;
+  text-align: center;
+}
+#weatherApp {
+  padding-bottom: 60px;
+  border: 0.1px solid #a8c4fc;
+  background: #f5f1fe;
+}
+.btn-projects {
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: var(--button-border-radius);
+}
+.photo {
+  border-radius: 4px;
+}
+.contact-heading {
+  text-align: left;
+}
+.contact-detail-section,
+.form-section {
+  text-align: left;
+}
+form {
+  line-height: 3;
+  border: 1px solid #dad5e7ab;
+  border-radius: 4px;
+}
+.email-field,
+.message-field {
+  border: 1px solid #dad5e7ab;
+  border-radius: 4px;
+}
+.message-field {
+  padding-bottom: 40px;
+}
+.submit {
+  background: #085fd7;
+  border: 1px solid #085fd7;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 0px 40px;
+  font-size: 20px;
+  color: white;
+}
+.contact-detail-section h3 {
+  margin-top: 20px;
+}
+.footer {
+  margin-top: 100px;
+  background: #f8f6fe;
+  padding: 60px;
+}
+h2.footer-heading {
+  font-size: 40px;
+}
+.social-media {
+  margin-bottom: 40px;
+  font-size: larger;
+}
+i {
+  background: #f8f9fa;
+}
+i:hover {
+  background: #085fd7;
+  color: whitesmoke;
+}
+a.email {
+  color: black;
+}
+a.email:hover {
+  color: #085fd7;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .content {
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 55px;
+  }
+  .container {
+    text-align: center;
+  }
+  .app-description {
+    text-align: center;
+  }
+  .app-description h2 {
+    font-size: 30px;
+  }
+  .content h2 {
+    font-size: 30px;
+  }
+  .veggie {
+    margin-left: 48px;
+  }
+  .form-section,
+  .contact-detail-section {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .contact-heading {
+    font-size: 36px;
+    text-align: center;
+  }
+}
